@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Serialist Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 760px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.15rem; margin-top: 1.8em; }
+  h3 { font-size: 1rem; margin-top: 1.2em; }
+  ul { padding-left: 1.2em; }
+  a { color: #5B6CFF; }
+  .lang-switch { font-size: .9rem; margin-bottom: 1.5em; }
+  .lang-switch a { margin-right: 12px; }
+  section[hidden] { display: none; }
+  .contact-card { background: #5B6CFF14; border-radius: 12px;
+    padding: 16px 18px; margin: 1.5em 0; }
+  .contact-card a { font-weight: 600; }
+  .footer-links { margin-top: 2.5em; padding-top: 1.5em;
+    border-top: 1px solid #8884; font-size: .9rem; opacity: .8; }
+  .footer-links a { margin-right: 14px; }
+  small { opacity: .7; }
+</style>
+</head>
+<body>
+<div class="lang-switch">
+  <a href="?lang=en" data-lang="en">English</a>
+  <a href="?lang=ru" data-lang="ru">Русский</a>
+</div>
+
+<section id="en">
+<h1>Serialist Support</h1>
+<p><small>Last updated: 9 May 2026</small></p>
+
+<p>Welcome! Serialist is a personal TV and movie tracker for iOS - calendar of new episodes, AI picks for your mood, lists, and progress tracking. This page covers the most common questions and how to reach us.</p>
+
+<div class="contact-card">
+  <p>Need help, found a bug, or have a feature idea?<br>
+  Email: <a href="mailto:djok69@gmail.com?subject=Serialist%20Support">djok69@gmail.com</a></p>
+  <p style="margin: 0; font-size: .9rem; opacity: .8">We usually reply within 1-3 business days. Please include your iOS version, device model, and a short description of the issue.</p>
+</div>
+
+<h2>Frequently asked questions</h2>
+
+<h3>How do I add a show or movie to my list?</h3>
+<p>Open the Search tab, type a title, tap any result, then tap "Add to list" and pick a list (or create a new one). You can also paste a free-form description into AI search and add titles from the recommendations.</p>
+
+<h3>How do I track watched episodes?</h3>
+<p>Open a series, expand a season, and tap the circle next to an episode to mark it watched. The next-up indicator updates automatically. You can also mark a whole season at once from its header.</p>
+
+<h3>The premiere calendar is empty - what's wrong?</h3>
+<p>The calendar only shows episodes for series you actively follow (those in any of your lists with status that triggers tracking). Add at least one airing series to a list, pull-to-refresh on the Calendar tab, and dates should appear within a few seconds.</p>
+
+<h3>I don't get push notifications about new episodes</h3>
+<p>Push notifications about new episodes are a Premium feature.</p>
+<ul>
+  <li>Make sure you have an active Premium subscription.</li>
+  <li>Check that notifications are enabled for Serialist in iOS Settings -> Notifications -> Serialist.</li>
+  <li>For each series, push reminders can be toggled per show in the series page.</li>
+  <li>If your phone is in Focus / Do Not Disturb mode, notifications may be silenced.</li>
+</ul>
+
+<h3>How do I sign in / sync between devices?</h3>
+<p>Go to Profile -> Sign in with Apple or Google. Once signed in on two devices with the same account, your lists, watched-episode progress, and history sync automatically. Sync is part of the Premium tier.</p>
+
+<h3>I don't see my purchases on a new device</h3>
+<p>On the new device, go to the paywall (any "Premium" prompt or Profile -> Subscription) and tap "Restore purchases". The App Store will re-validate your active subscription against the same Apple ID. If nothing happens, check that you are signed into the App Store with the Apple ID that originally bought the subscription.</p>
+
+<h3>How do AI search and AI picks work?</h3>
+<p>You describe what you want in natural language ("a thriller for tonight", "like Severance but softer"), and the App produces a curated list using an AI model from OpenRouter combined with metadata from TMDB.</p>
+<ul>
+  <li>Free: 1 AI search per day.</li>
+  <li>Ad-free: 3 AI searches per day.</li>
+  <li>Premium: unlimited AI searches (subject to abuse-prevention limits).</li>
+</ul>
+<p>If you hit the daily limit on the Free tier, you may be offered a rewarded ad to unlock an extra search.</p>
+
+<h3>Why am I seeing ads, and how do I remove them?</h3>
+<p>Ads are shown only on the Free tier and only between cards in lists, calendar, and after AI search results. Subscribe to Ad-free or Premium to remove all ads.</p>
+
+<h3>How do I cancel my subscription?</h3>
+<p>Subscriptions are managed by Apple, not by Serialist. Open iOS Settings -> tap your name at the top -> Subscriptions -> Serialist -> Cancel subscription. You will keep access until the end of the current billing period.</p>
+
+<h3>How do I delete my account or data?</h3>
+<p>In the App: Profile -> Account -> Delete account. This removes your synced lists, watched-episode progress, and account from our backend within 30 days. If you are unable to use the in-app option, email <a href="mailto:djok69@gmail.com?subject=Serialist%20account%20deletion">djok69@gmail.com</a> from the email associated with your account.</p>
+
+<h3>Where is the show/episode data from?</h3>
+<p>All show and movie metadata, including images, is provided by <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>. Serialist is not endorsed or certified by TMDB.</p>
+
+<h3>How do I report a bug?</h3>
+<p>Email <a href="mailto:djok69@gmail.com?subject=Serialist%20bug%20report">djok69@gmail.com</a> with:</p>
+<ul>
+  <li>iOS version (Settings -> General -> About -> iOS Version).</li>
+  <li>Device model (e.g. iPhone 15 Pro).</li>
+  <li>Serialist version (Profile -> About).</li>
+  <li>What you did, what you expected, what happened.</li>
+  <li>A screenshot or screen recording, if possible.</li>
+</ul>
+
+<div class="footer-links">
+  <a href="./privacy.html">Privacy Policy</a>
+  <a href="./terms.html">Terms of Use</a>
+  <a href="./">Home</a>
+</div>
+</section>
+
+<section id="ru" hidden>
+<h1>Поддержка Serialist</h1>
+<p><small>Обновлено: 9 мая 2026</small></p>
+
+<p>Добро пожаловать! Serialist - это персональный трекер сериалов и фильмов для iOS: календарь новых эпизодов, AI-подборки под настроение, списки и прогресс просмотра. На этой странице - частые вопросы и контакт для связи.</p>
+
+<div class="contact-card">
+  <p>Нужна помощь, нашёл баг или есть идея фичи?<br>
+  Email: <a href="mailto:djok69@gmail.com?subject=Serialist%20Support">djok69@gmail.com</a></p>
+  <p style="margin: 0; font-size: .9rem; opacity: .8">Обычно отвечаем в течение 1-3 рабочих дней. В письме укажи версию iOS, модель устройства и кратко опиши проблему.</p>
+</div>
+
+<h2>Частые вопросы</h2>
+
+<h3>Как добавить сериал или фильм в список?</h3>
+<p>Открой вкладку «Поиск», введи название, тапни на результат, затем «Добавить в список» и выбери список (или создай новый). Также можно описать настроение в AI-поиске и добавить тайтлы прямо из подборки.</p>
+
+<h3>Как отмечать просмотренные эпизоды?</h3>
+<p>Открой сериал, разверни сезон и тапни на кружок рядом с эпизодом - он отметится как просмотренный. Индикатор «следующий эпизод» обновится автоматически. Можно отметить весь сезон сразу из его заголовка.</p>
+
+<h3>Календарь премьер пустой - что не так?</h3>
+<p>В календаре показываются эпизоды только тех сериалов, которые ты активно отслеживаешь (находятся в списке со статусом, который запускает трекинг). Добавь хотя бы один идущий сериал в список, потяни вниз для обновления календаря - даты появятся через пару секунд.</p>
+
+<h3>Не приходят push-уведомления о новых сериях</h3>
+<p>Push о новых эпизодах - Premium-фича.</p>
+<ul>
+  <li>Убедись, что у тебя активна подписка Premium.</li>
+  <li>Проверь, что уведомления для Serialist разрешены: iOS «Настройки» -> «Уведомления» -> Serialist.</li>
+  <li>Для каждого сериала пуши включаются на странице самого сериала.</li>
+  <li>Если включён Focus / Не беспокоить - уведомления могут быть приглушены системой.</li>
+</ul>
+
+<h3>Как войти в аккаунт и синхронизировать устройства?</h3>
+<p>«Профиль» -> «Войти через Apple» или «Войти через Google». После входа на двух устройствах с одним аккаунтом списки, прогресс по эпизодам и история синхронизируются автоматически. Синхронизация входит в Premium.</p>
+
+<h3>На новом устройстве не видно моих покупок</h3>
+<p>На новом устройстве открой пейволл (любая кнопка про Premium или «Профиль» -> «Подписка») и тапни «Восстановить покупки». App Store повторно проверит твою активную подписку под тем же Apple ID. Если ничего не происходит - убедись, что в App Store ты вошёл под тем же Apple ID, под которым покупал подписку.</p>
+
+<h3>Как работают AI-поиск и AI-подборки?</h3>
+<p>Ты описываешь, что хочешь, обычным текстом («триллер на вечер», «как Severance, но мягче»), а Приложение собирает подборку через AI-модель в OpenRouter поверх метаданных TMDB.</p>
+<ul>
+  <li>Бесплатно: 1 AI-поиск в день.</li>
+  <li>Без рекламы: 3 AI-поиска в день.</li>
+  <li>Premium: безлимит (с защитой от злоупотреблений).</li>
+</ul>
+<p>На бесплатном тарифе при превышении лимита можно посмотреть rewarded-видео и получить дополнительный поиск.</p>
+
+<h3>Почему я вижу рекламу и как её убрать?</h3>
+<p>Реклама показывается только на бесплатном тарифе - между карточками в списках, календаре и после AI-подборок. Подписка «Без рекламы» или Premium убирает всю рекламу.</p>
+
+<h3>Как отменить подписку?</h3>
+<p>Подписками управляет Apple, не Serialist. Открой iOS «Настройки» -> тапни своё имя сверху -> «Подписки» -> Serialist -> «Отменить подписку». Доступ сохранится до конца оплаченного периода.</p>
+
+<h3>Как удалить аккаунт или данные?</h3>
+<p>В Приложении: «Профиль» -> «Аккаунт» -> «Удалить аккаунт». Это сотрёт твои синхронизированные списки, прогресс и аккаунт из бэкенда в течение 30 дней. Если не получается удалить из приложения - напиши на <a href="mailto:djok69@gmail.com?subject=Serialist%20account%20deletion">djok69@gmail.com</a> с email'а, привязанного к аккаунту.</p>
+
+<h3>Откуда данные о сериалах и эпизодах?</h3>
+<p>Все метаданные сериалов и фильмов, включая постеры, предоставлены <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>. Serialist не сертифицирован и не одобрен TMDB.</p>
+
+<h3>Как сообщить о баге?</h3>
+<p>Напиши на <a href="mailto:djok69@gmail.com?subject=Serialist%20bug%20report">djok69@gmail.com</a> и укажи:</p>
+<ul>
+  <li>Версию iOS (iOS «Настройки» -> «Основные» -> «Об этом устройстве» -> «Версия ПО»).</li>
+  <li>Модель устройства (например, iPhone 15 Pro).</li>
+  <li>Версию Serialist («Профиль» -> «О приложении»).</li>
+  <li>Что сделал, что ожидал увидеть, что произошло.</li>
+  <li>Скриншот или запись экрана, если возможно.</li>
+</ul>
+
+<div class="footer-links">
+  <a href="./privacy.html?lang=ru">Политика конфиденциальности</a>
+  <a href="./terms.html?lang=ru">Условия использования</a>
+  <a href="./">Главная</a>
+</div>
+</section>
+
+<script>
+(function () {
+  var lang = (new URLSearchParams(location.search).get("lang") || "").toLowerCase();
+  if (lang !== "ru") lang = "en";
+  document.getElementById("en").hidden = (lang !== "en");
+  document.getElementById("ru").hidden = (lang !== "ru");
+  document.documentElement.lang = lang;
+})();
+</script>
+</body>
+</html>
